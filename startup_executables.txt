@@ -1,0 +1,1 @@
+"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" --disk-cache-dir="A:\cache" --disk-cache-size=104857600
