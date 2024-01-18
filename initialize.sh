@@ -4,8 +4,8 @@ sudo apt update;
 sudo apt upgrade;
 sudo apt install yes;
 
-sudo apt install debian-keyring | yes
-sudo apt install debian-archive-keyring | yes
+sudo apt install debian-keyring -y
+sudo apt install debian-archive-keyring -y
 
 sudo ntpdate -s ntp.torix.ca; #Update Time using NTP Server
 sudo timedatectl set-timezone America/Toronto;
