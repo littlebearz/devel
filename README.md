@@ -12,4 +12,6 @@ Line 3-5 Grab latest /etc/sources.list and upgrade packages to latest automatica
 
 Line 7-8 Download and Install debian keyrings (all application are signed by developers so it's genuine.)
 
-Line 10-11 TimeZone settings to US-East and synchronize the clock.
+Line 10-11 DNS Settings
+
+Line 13-14  TimeZone settings to US-East and synchronize the clock.
