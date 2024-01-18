@@ -2,7 +2,7 @@
 #Business As Usual for update and upgrade
 sudo apt update;
 sudo apt upgrade;
-sudo apt install yes;
+sudo apt install wget git;
 
 sudo apt install debian-keyring -y
 sudo apt install debian-archive-keyring -y
