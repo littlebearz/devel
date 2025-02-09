@@ -1,6 +1,6 @@
 #!/bin/bash
 #How to use this script: 
-# wget -O initialize.sh https://github.com/littlebearz/devel/raw/refs/heads/master/initialize.sh | chmod +x initialize.sh | ./initialize.sh
+# wget -O initialize.sh https://github.com/littlebearz/devel/raw/refs/heads/master/initialize.sh ; chmod +x initialize.sh ; ./initialize.sh
 #Business As Usual for update and upgrade
 sudo apt update;
 sudo apt upgrade;
