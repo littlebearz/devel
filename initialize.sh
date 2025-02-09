@@ -1,4 +1,5 @@
 #!/bin/bash
+#How to use this script: wget -O initialize.sh 
 #Business As Usual for update and upgrade
 sudo apt update;
 sudo apt upgrade;
