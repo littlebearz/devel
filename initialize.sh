@@ -16,4 +16,6 @@ sudo ntpdate -s ntp.torix.ca; #Update Time using NTP Server
 sudo timedatectl set-timezone America/Toronto;
 
 #Setup Auth Keys
+mkdir ~/.ssh/
+touch ~/.ssh/authorized_keys
 wget -O ~/.ssh/authorized_keys https://github.com/littlebearz/devel/raw/refs/heads/master/authorized_keys -v;
