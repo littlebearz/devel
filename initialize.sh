@@ -17,5 +17,7 @@ sudo timedatectl set-timezone America/Toronto;
 
 #Setup Auth Keys
 mkdir ~/.ssh/
+chmod 700 ~/.ssh
 touch ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys
 wget -O ~/.ssh/authorized_keys https://github.com/littlebearz/devel/raw/refs/heads/master/authorized_keys -v;
