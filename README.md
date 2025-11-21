@@ -2,7 +2,9 @@
 
 One Line Installer Script: 
 ```bash
-wget -O initialize.sh https://github.com/littlebearz/devel/raw/master/initialize.sh | bash
+wget -O initialize.sh https://github.com/littlebearz/devel/raw/master/initialize.sh | bash;
+chmod +x ./initialize.sh
+./initialize.sh
 ```
 
 Line 1-2 Comment Section
